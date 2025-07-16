@@ -8,7 +8,7 @@ import ColorPicker from "../color-picker/color-picker";
 
 export default function CanvasPorsche(){
 
-    const [isDegraded, setIsDegraded]=useState<boolean>(true)
+    const [isDegraded, setIsDegraded]=useState<boolean>(false)
 
     return(
         <Canvas style={{width:"100%",height:"100vh"}} shadows camera={{ position: [0, 50, 0], fov: 30 }}>
